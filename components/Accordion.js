@@ -1,9 +1,7 @@
 import React, { useState, useRef } from 'react';
-import Link from 'next/link';
-import styles from '../styles/Accordion.module.css';
-import '../styles/Accordion.module.css';
+import styles from '../styles/Accordion.module.scss';
 
-function Accordion({ title, info }) {
+function Accordion({ title, children }) {
   const [setActive, setActiveState] = useState('');
   const [setHeight, setHeightState] = useState('0px');
 
@@ -23,19 +21,14 @@ function Accordion({ title, info }) {
       </button>
       <div
         ref={content}
-        style={{ maxHeight: `${setHeight}` }}
+        style={{
+          maxHeight: `${setHeight}`,
+          transition: 'max-height 0.6s ease',
+        }}
         className={styles.accordionContent}
       >
-        <div>
-          <Link href='/'>
-            <a>Home</a>
-          </Link>
-        </div>
-        <div className={styles.accordionText}>
-          <Link href='/docs'>
-            <a>doc</a>
-          </Link>
-        </div>
+        {/* <div className={styles.accordionText}>{children}</div> */}
+        {children}
       </div>
     </div>
   );

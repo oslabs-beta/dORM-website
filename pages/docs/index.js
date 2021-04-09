@@ -1,5 +1,5 @@
 import Sidebar from '../../components/Sidebar';
-import styles from '../../styles/Docs.module.css';
+import styles from '../../styles/Docs.module.scss';
 
 export default function Docs() {
   return (

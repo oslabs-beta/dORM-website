@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/SidebarLayout.module.css';
+import styles from '../styles/SidebarLayout.module.scss';
 
 const SidebarLayout = ({ width, height, children }) => {
   const [xPosition, setX] = React.useState(-width);
