@@ -1,10 +1,35 @@
-.footerContainer {
-  height: 200px;
-  width: 100%;
+.container {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(234, 234, 234);
-  padding: 3rem;
+  padding: 3rem 8rem;
 
-  h1 {
-    color: white;
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+
+    h1 {
+      color: white;
+    }
+
+    .directoryContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        margin: 0.2rem 0;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 0.8rem;
   }
 }

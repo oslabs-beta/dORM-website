@@ -13,6 +13,8 @@ const NavBar = () => {
                 position: 'relative',
                 width: '100px',
                 height: '56px',
+                cursor: 'pointer',
+                padding: '0 0 0 1rem',
               }}
             >
               <Image
@@ -34,7 +36,7 @@ const NavBar = () => {
           </li>
 
           <li>
-            <Link href='/#teamComp'>
+            <Link href='/#team'>
               <div>Team</div>
             </Link>
           </li>

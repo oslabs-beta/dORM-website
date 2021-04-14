@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <>
       <div>
-        <SidebarLayout width={200} height={'80vh'}>
+        <SidebarLayout width={300} height={'95vh'}>
           <Accordion title='Introduction'>
             <Link href='/'>
               <div className={styles.accordionText}>Home</div>

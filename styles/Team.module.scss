@@ -3,18 +3,24 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url('../public/bg.jpg');
 }
 
 .teamCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
+  h1 {
+    margin: 0.3rem 0;
+  }
+  h4 {
+    margin: 0.3rem 0 0.5rem;
+    color: #868686;
+  }
 }
 
 .logoRow {
-  width: 110px;
+  width: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,4 +30,8 @@
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
+
+  &:hover {
+    // do something
+  }
 }

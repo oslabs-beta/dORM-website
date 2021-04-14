@@ -23,7 +23,7 @@ const SidebarLayout = ({ width, height, children }) => {
         style={{
           transform: `translatex(${xPosition}px)`,
           width: width,
-          minHeight: height,
+          // minHeight: height,
         }}
       >
         {/* <button
