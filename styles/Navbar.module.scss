@@ -7,14 +7,19 @@
   height: 5rem;
   border-bottom: 1px black solid;
 
+  // position: fixed;
+  // width: 100%;
+
   h1 {
     margin: 0;
     font-size: 70px;
-    transition: color 0.3s ease;
+
     color: #663399;
     &:hover {
-      color: rgb(62, 62, 62);
+      -webkit-text-stroke: 2px #663399;
+      color: white;
       cursor: pointer;
+      transition: color 0.1s ease-in-out;
     }
   }
 }
@@ -48,18 +53,15 @@
     font-weight: 500;
     padding: 10px;
     &:hover {
-      text-decoration: underline 3px #7851a9;
+      text-decoration: underline 5px #7851a9;
       cursor: pointer;
-    }
-    &:focus {
-      text-decoration: underline 3px #7851a9;
     }
   }
 
   a {
     text-decoration: none;
     &:hover {
-      text-decoration: underline 3px #7851a9;
+      text-decoration: underline 5px #7851a9;
       cursor: pointer;
     }
   }
