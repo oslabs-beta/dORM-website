@@ -7,7 +7,9 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.directoryContainer}>
           <h4>DOCS</h4>
-          <a href='/'>Getting Started</a>
+          <Link href='/docs'>
+            <a>Getting Started</a>
+          </Link>
         </div>
         <div className={styles.directoryContainer}>
           <h4>CHANNEL</h4>
@@ -33,7 +35,9 @@ const Footer = () => {
         </div>
         <div className={styles.directoryContainer}>
           <h4>SUPPORT</h4>
-          <a href='/'>F&Q</a>
+          <Link href='/'>
+            <a>F&Q</a>
+          </Link>
         </div>
       </div>
       <p className={styles.copyright}>
