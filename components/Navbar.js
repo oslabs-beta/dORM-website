@@ -13,6 +13,7 @@ const NavBar = () => {
                 position: 'relative',
                 width: '100px',
                 height: '56px',
+                cursor: 'pointer',
               }}
             >
               <Image

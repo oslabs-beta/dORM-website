@@ -10,6 +10,12 @@
   h1 {
     margin: 0;
     font-size: 70px;
+    transition: color 0.3s ease;
+    color: #663399;
+    &:hover {
+      color: rgb(62, 62, 62);
+      cursor: pointer;
+    }
   }
 }
 

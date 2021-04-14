@@ -6,6 +6,29 @@ export default function Docs() {
     <div className={styles.container}>
       <Sidebar />
       <h1>Show document detail</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
+      <h1>I'm body bitch</h1>
     </div>
   );
 }
