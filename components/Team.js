@@ -5,7 +5,7 @@ import TeamCard from './TeamCard';
 export default function Team() {
   return (
     <>
-      <div className={styles.teamComp} id='teamComp'>
+      <div className={styles.teamComp} id='team'>
         <TeamCard
           name='Han Dump'
           profilePic='/red.png'

@@ -3,21 +3,11 @@
   display: flex;
   flex-direction: column;
   border-right: 1px solid;
-  border-radius: 0;
+
+  overflow-y: scroll;
+
   border-color: rgba(0, 0, 0, 0.693);
   background-color: rgb(255, 255, 255);
-  transition: 0.8s ease;
-}
 
-.toggleMenu {
-  height: 50px;
-  border-top-right-radius: 10rem;
-  border-bottom-right-radius: 9rem;
-  width: 10px;
-  position: absolute;
-  outline: none;
-  z-index: 1;
-  background-color: rgba(64, 194, 133, 0.693);
-  border-color: rgba(64, 194, 133, 0.693);
-  border-left: 0;
+  transition: 0.8s ease;
 }

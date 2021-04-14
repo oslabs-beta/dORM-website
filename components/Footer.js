@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className={styles.directoryContainer}>
           <h4>TEAM</h4>
-          <Link href='/#teamComp'>
+          <Link href='/#team'>
             <a>About Us</a>
           </Link>
         </div>

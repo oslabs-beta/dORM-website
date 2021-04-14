@@ -36,7 +36,7 @@ const NavBar = () => {
           </li>
 
           <li>
-            <Link href='/#teamComp'>
+            <Link href='/#team'>
               <div>Team</div>
             </Link>
           </li>
