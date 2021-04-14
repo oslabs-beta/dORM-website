@@ -23,8 +23,6 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-
-  // border: 1px solid red;
 }
 
 .navContainer {
@@ -46,6 +44,7 @@
   }
 
   div {
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 10px;
     &:hover {

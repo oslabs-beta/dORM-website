@@ -14,6 +14,7 @@ const NavBar = () => {
                 width: '100px',
                 height: '56px',
                 cursor: 'pointer',
+                padding: '0 0 0 1rem',
               }}
             >
               <Image
