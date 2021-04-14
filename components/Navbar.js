@@ -5,29 +5,76 @@ import Image from 'next/image';
 const NavBar = () => {
   return (
     <>
-      <div className={styles.navLogo}>
-        <h1>dORM</h1>
-        <Image src='/dorm.png' alt='dorm' width={100} height={55} />
+      <div className={styles.nav}>
+        <Link href='/'>
+          <div className={styles.navMainLogo}>
+            <div
+              style={{
+                position: 'relative',
+                width: '100px',
+                height: '56px',
+              }}
+            >
+              <Image
+                src='/dorm.png'
+                alt='dorm'
+                layout='fill'
+                objectFit='contain'
+              />
+            </div>
+            <h1>dORM</h1>
+          </div>
+        </Link>
+
         <ul className={styles.navContainer}>
           <li>
             <Link href='/'>
-              <div className={styles.navIcon}>Home</div>
+              <div>Home</div>
+            </Link>
+          </li>
+
+          <li>
+            <Link href='/#teamComp'>
+              <div>Team</div>
             </Link>
           </li>
           <li>
             <Link href='/docs'>
-              <div className={styles.navIcon}>Documentation</div>
+              <div>Documentation</div>
             </Link>
           </li>
           <li>
-            <Link href='/team'>
-              <div className={styles.navIcon}>Team</div>
-            </Link>
+            <div>
+              <a
+                href='https://deno.land/x/dorm'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Deno.land
+              </a>
+            </div>
           </li>
           <li>
-            <Link href='https://github.com/oslabs-beta/dORM'>
-              <div className={styles.navIcon}>Github</div>
-            </Link>
+            <div>
+              <a
+                href='https://github.com/oslabs-beta/dORM'
+                target='_blank'
+                rel='noreferrer'
+              >
+                ⭐ Star
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a
+                href='https://github.com/oslabs-beta/dORM'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Github
+              </a>
+            </div>
           </li>
         </ul>
       </div>

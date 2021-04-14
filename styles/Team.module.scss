@@ -1,0 +1,27 @@
+.teamComp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('../public/bg.jpg');
+}
+
+.teamCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoRow {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,9 +1,35 @@
 import Head from 'next/head';
+import Team from '../components/Team';
 
 export default function Home() {
   return (
     <>
-      <h1>TESTING</h1>
+      <div className={'bodyContainer'}>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <h1>I'm body bitch</h1>
+        <Team />
+      </div>
     </>
   );
 }
