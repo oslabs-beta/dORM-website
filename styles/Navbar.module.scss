@@ -54,16 +54,17 @@
     font-weight: 500;
     padding: 10px;
     &:hover {
-      text-decoration: underline 5px #7851a9;
+      text-decoration: underline 5px #ffc55e;
       cursor: pointer;
     }
   }
 
   a {
     color: #565656;
-    text-decoration: none;
+    // text-decoration: none;
+    text-decoration: underline 5px transparent;
     &:hover {
-      text-decoration: underline 5px #7851a9;
+      text-decoration: underline 5px #ffc55e;
       cursor: pointer;
     }
   }

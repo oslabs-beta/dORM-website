@@ -98,6 +98,11 @@ const queryBuilder = () => {
   text: 'SELECT * FROM people WHERE id = $1',
   values: [1]
   };\n`;
+  const codeHighlight13 = `\n const values = [1, 'Bob'];
+  const results = await dorm.raw(
+    'SELECT * FROM people WHERE id = $1 OR name = $2',
+    values
+  );\n`;
 
   return (
     <div>
@@ -277,12 +282,13 @@ const queryBuilder = () => {
         </SyntaxHighlighter>
       </div>
       <p>
-        For <em>.where()</em> and <em>.on()</em> arguments, **dORM** will parse
-        the argument and parameterize any _string, number, boolean,_ or _null
-        values._ When <strong>dORM</strong> queries the database, it sends the
-        parameterized query string as the first argument, and an array of values{' '}
-        <em>(if any)</em> as the second argument. Postgres handles everything
-        from there, scrubbing the values to ensure no SQL injection can occur.
+        For <em>.where()</em> and <em>.on()</em> arguments,{' '}
+        <strong>dORM</strong> will parse the argument and parameterize any
+        _string, number, boolean,_ or _null values._ When <strong>dORM</strong>{' '}
+        queries the database, it sends the parameterized query string as the
+        first argument, and an array of values <em>(if any)</em> as the second
+        argument. Postgres handles everything from there, scrubbing the values
+        to ensure no SQL injection can occur.
       </p>
       <div>
         <SyntaxHighlighter
@@ -293,18 +299,19 @@ const queryBuilder = () => {
           {codeHighlight11}
         </SyntaxHighlighter>
       </div>
-      <h1>TOSTRING / TOOBJECT</h1>
+      <h1 id={'toString-toObject'}>TOSTRING / TOOBJECT</h1>
       <p>
         Perhaps there will be times when you want to create a query, but don’t
         want to send it off to the database just yet. <strong>dORM</strong> has
         a couple of methods to help you with that. A <strong>dORM</strong> query
         string is sent off to the database upon reaching a .then in the chain,
-        or an await. You can intercept the query string with the `.toString()`
-        method, which returns just the string with the values parameterized (ie.
-        `'...WHERE id = $1'`). If you already have the values handy, that’s
-        great, but if you’d want the values array returns as well, the
-        `.toObject()` (alias .toObj) method will return an object with two
-        properties: text and values.
+        or an await. You can intercept the query string with the{' '}
+        <em>.toString()</em>
+        method, which returns just the string with the values parameterized{' '}
+        <em>(ie. '...WHERE id = $1')</em>. If you already have the values handy,
+        that’s great, but if you’d want the values array returns as well, the
+        <em>.toObject()</em> (alias .toObj) method will return an object with
+        two properties: text and values.
       </p>
       <div>
         <SyntaxHighlighter
@@ -315,6 +322,29 @@ const queryBuilder = () => {
           {codeHighlight12}
         </SyntaxHighlighter>
       </div>
+      <h1 id={'raw'}>RAW</h1>
+      <p>
+        Sometimes you just can’t or don’t want to use our chainable methods to
+        access your database. We get it. For those funky queries that our
+        methods don’t quite <em>(yet)</em> cover, we give you the{' '}
+        <em>dorm.raw()</em>
+        method. Pass in your query string and we will make the connection for
+        you and send it off to the db server as-is. If you’ve parameterized your
+        values—and of course you have!—you can pass your ordered values array as
+        a second argument to <em>.raw()</em> and we’ll send that along too. This
+        method also has aliases: <em>.rawr()</em> and <em>.rawrr()</em>, of
+        course.
+      </p>
+      <div>
+        <SyntaxHighlighter
+          className={'syntaxHighlighter'}
+          language='javascript'
+          style={nord}
+        >
+          {codeHighlight13}
+        </SyntaxHighlighter>
+      </div>
+      <h1></h1>
     </div>
   );
 };
