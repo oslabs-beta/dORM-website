@@ -7,7 +7,7 @@ export default function Team() {
     <>
       <div className={styles.teamComp} id='team'>
         <TeamCard
-          name='Han Dump'
+          name='Han Chae'
           profilePic='/red.png'
           quote='He likes to make it useful.'
           github='https://github.com/chaekmh'

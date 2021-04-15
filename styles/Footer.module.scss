@@ -1,30 +1,36 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(240, 240, 240);
   padding: 3rem 8rem;
-
-  // position: absolute;
-  // bottom: 0;
-  // width: 100%;
+  height: 300px;
 
   .footerContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 150px;
+    justify-content: center;
 
-    h1 {
-      color: white;
+    // border: 1px solid red;
+    h4 {
+      color: #343434;
+      font-size: 20px;
+      margin: 0 0 2rem;
     }
 
     .directoryContainer {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: left;
+      padding: 0 7.5rem;
 
-      p {
-        margin: 0.2rem 0;
+      a {
+        // margin: 0.2rem 0;
+        color: #343434;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      a:hover {
+        color: #ffc55e;
       }
     }
   }
@@ -34,6 +40,7 @@
     flex-direction: column;
     align-items: center;
 
+    padding-top: 8rem;
     font-size: 0.8rem;
   }
 }
