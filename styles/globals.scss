@@ -6,7 +6,6 @@ body {
 
 html * {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: #606060;
 }
 
 html {
@@ -17,7 +16,36 @@ html {
   margin: 3rem 5rem;
 }
 
+.page-container {
+  // padding-bottom: 20rem
+}
+
 .contentFooterContainer {
   display: flex;
   flex-direction: column;
+  // position: relative;
+  // min-height: 100vh;
+}
+
+pre {
+  counter-reset: line;
+}
+
+code {
+  counter-increment: line;
+}
+
+code::before {
+  content: counter(line);
+  display: inline-block;
+  width: 1.5em; /* Fixed width */
+  border-right: 1px solid #ddd;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  color: #888;
+  -webkit-user-select: none;
+}
+
+.syntaxHighlighter {
+  font-size: 1em;
 }
