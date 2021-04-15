@@ -61,9 +61,6 @@ const model = () => {
         This will create a dorm folder containing all of your table relations as
         model instance files.
       </p>
-      <h1>🚧 UNDER CONSTRUCTION 🚧</h1>
-      <h1>🚧 UNDER CONSTRUCTION 🚧</h1>
-      <h1>🚧 UNDER CONSTRUCTION 🚧</h1>
     </div>
   );
 };
