@@ -5,29 +5,7 @@ export default function Home() {
   return (
     <>
       <div className={'bodyContainer'}>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
-        <h1>I'm body bitch</h1>
+        <h1>THIS IS HOMEPAGE LANDING PAGE</h1>
         <Team />
       </div>
     </>
