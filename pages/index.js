@@ -40,7 +40,9 @@ export default function Home() {
         <Feature />
       </div>
       <div className={styles.teamContainer}>
-        <h1 className={styles.teamContainerTitle}>TEAM</h1>
+        <h1 id='team' className={styles.teamContainerTitle}>
+          TEAM
+        </h1>
         <Team />
       </div>
     </>

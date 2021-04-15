@@ -29,6 +29,7 @@
 
   p {
     margin-bottom: 2rem;
+    line-height: 2.2rem;
     width: 1000px;
     color: #343434;
     font-size: 25px;
@@ -51,16 +52,14 @@
     font-weight: 900;
 
     transition: border 0.5s ease-in-out;
-    // transition: color 0.5s ease-in-out;
 
     &:hover {
-      color: #ffc55e;
-      // background-color: #ffc55e;
+      color: white;
+      background-color: #ffc55e;
 
       border: transparent;
       transition: color 0.5s ease-in-out;
       transition: background-color 0.5s ease-in-out;
-      transition: border 0.5s ease-in-out;
     }
 
     &:focus {
@@ -112,6 +111,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
   min-height: 800px;
   height: 100vh;
 
