@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <h1>dORM</h1>
         <p>
-          dORM is an uber-lightweight SQL query builder for postgreSQL and is
+          dORM is an uber-lightweight postgreSQL query builder for Deno and is
           currently being expanded into a full-fledged object-relational mapping
           (ORM) tool. Its purpose is to make your life easier when making SQL
           queries and let you write queries in familiar Javascript/Typescript

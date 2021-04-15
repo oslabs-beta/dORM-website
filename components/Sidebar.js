@@ -9,27 +9,31 @@ const Sidebar = () => {
       <div>
         <SidebarLayout width={300} height={'95vh'}>
           <Accordion title='Getting Started'>
-            <Link href='/docs/getting-started'>
+            <Link href='/docs/getting-started/#introduction'>
               <div className={styles.accordionText}>Introduction</div>
             </Link>
+            <Link href='/docs/getting-started/#getting-started'>
+              <div className={styles.accordionText}>Getting Started</div>
+            </Link>
           </Accordion>
+
           <Accordion title='Query Builder'>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#insert'>
               <div className={styles.accordionText}>Insert</div>
             </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#select'>
               <div className={styles.accordionText}>Select</div>
             </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#update'>
               <div className={styles.accordionText}>Update</div>
             </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#delete'>
               <div className={styles.accordionText}>Delete</div>
             </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#joins'>
               <div className={styles.accordionText}>Joins</div>
             </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#parameterized-queries'>
               <div className={styles.accordionText}>Parameterizing Queries</div>
             </Link>
             <Link href='/docs/query-builder'>

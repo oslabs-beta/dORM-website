@@ -10,7 +10,7 @@ const Feature = () => {
         <h2>Typescript syntax</h2>
       </div>
       <div className={styles.featureSubContainer2}>
-        <h2>Readable data model</h2>
+        <h2>Flexible/Chainable methods</h2>
         <h2>Protected from SQL injection</h2>
       </div>
     </div>
