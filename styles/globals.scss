@@ -4,7 +4,13 @@ body {
   overflow: hidden;
 }
 
-html * {
+html h1,
+h2,
+h3,
+h4,
+p,
+body,
+a {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -44,5 +50,5 @@ code::before {
 
 .syntaxHighlighter {
   margin-top: 0;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }

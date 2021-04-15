@@ -36,19 +36,18 @@ const Sidebar = () => {
             <Link href='/docs/query-builder/#parameterized-queries'>
               <div className={styles.accordionText}>Parameterizing Queries</div>
             </Link>
-            <Link href='/docs/query-builder'>
-              <div className={styles.accordionText}>Raw</div>
-            </Link>
-            <Link href='/docs/query-builder'>
+            <Link href='/docs/query-builder/#toString-toObject'>
               <div className={styles.accordionText}>toString and toObject</div>
+            </Link>
+            <Link href='/docs/query-builder/#raw'>
+              <div className={styles.accordionText}>Raw</div>
             </Link>
           </Accordion>
           <Accordion title='Models'>
-            <Link href='/docs/model'>
-              <div className={styles.accordionText}>table models</div>
+            <Link href='/docs/model/#models'>
+              <div className={styles.accordionText}>Table Models</div>
             </Link>
           </Accordion>
-          <Accordion title='Query examples' />
         </SidebarLayout>
       </div>
     </>
