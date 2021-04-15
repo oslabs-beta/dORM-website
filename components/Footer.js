@@ -49,7 +49,7 @@ const Footer = () => {
         <div className={styles.directoryContainer}>
           <h4>SUPPORT</h4>
           <Link href='/'>
-            <a>F&Q</a>
+            <a>FAQ</a>
           </Link>
         </div>
       </div>
