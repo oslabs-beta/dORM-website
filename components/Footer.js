@@ -32,7 +32,11 @@ const Footer = () => {
           >
             Github
           </a>
-          <a href='' target='_blank' rel='noreferrer'>
+          <a
+            href='https://myounghanjinick.medium.com/introducing-dorm-bringing-sql-orm-and-query-building-to-deno-690d24785535'
+            target='_blank'
+            rel='noreferrer'
+          >
             Medium
           </a>
         </div>
@@ -45,7 +49,7 @@ const Footer = () => {
         <div className={styles.directoryContainer}>
           <h4>SUPPORT</h4>
           <Link href='/'>
-            <a>F&Q</a>
+            <a>FAQ</a>
           </Link>
         </div>
       </div>

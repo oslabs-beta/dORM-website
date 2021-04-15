@@ -26,7 +26,7 @@ export default function Home() {
           queries and let you write queries in familiar Javascript/Typescript
           syntax and dot notation.
         </p>
-        <Link href='./docs'>
+        <Link href='./docs/getting-started'>
           <button>Get Started</button>
         </Link>
       </div>
