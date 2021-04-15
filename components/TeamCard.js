@@ -4,7 +4,7 @@ import Image from 'next/image';
 const TeamCard = ({ name, profilePic, quote, github, linkedin }) => {
   return (
     <div className={styles.teamCard}>
-      <Image src={profilePic} alt='profilePic' width={250} height={250} />
+      <Image src={profilePic} alt='profilePic' width={350} height={350} />
       <h1>{name}</h1>
       <h4>{quote}</h4>
       <div className={styles.logoRow}>

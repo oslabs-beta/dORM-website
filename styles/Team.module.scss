@@ -1,19 +1,25 @@
 .teamComp {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .teamCard {
+  color: #5d5d5d;
+  padding: 2rem 3rem 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   h1 {
     margin: 0.3rem 0;
+    font-size: 40px;
+    // text-shadow: 1px 1px 1px #5d5d5d;
   }
   h4 {
+    font-size: 22.5px;
     margin: 0.3rem 0 0.5rem;
     color: #868686;
   }

@@ -5,7 +5,7 @@ const DocsLayout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Sidebar />
-      {children}
+      <div className={styles.docContents}>{children}</div>
     </div>
   );
 };

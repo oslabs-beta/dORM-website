@@ -14,10 +14,10 @@ const Sidebar = () => {
             </Link>
           </Accordion>
           <Accordion title='Query Builder'>
-            <Link href='/docs/getting-started'>
+            <Link href='/docs/query-builder'>
               <div className={styles.accordionText}>Insert</div>
             </Link>
-            <Link href='/docs/getting-started'>
+            <Link href='/docs/query-builder'>
               <div className={styles.accordionText}>Select</div>
             </Link>
             <Link href='/docs/query-builder'>
@@ -41,7 +41,7 @@ const Sidebar = () => {
           </Accordion>
           <Accordion title='Models'>
             <Link href='/docs/model'>
-              <div className={styles.accordionText}>Under Construction</div>
+              <div className={styles.accordionText}>table models</div>
             </Link>
           </Accordion>
           <Accordion title='Query examples' />
