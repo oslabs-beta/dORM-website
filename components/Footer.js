@@ -7,8 +7,17 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.directoryContainer}>
           <h4>DOCS</h4>
-          <Link href='/docs'>
+          <Link href='/docs/getting-started'>
+            <a>Introduction</a>
+          </Link>
+          <Link href='/docs/getting-started/#getting-started'>
             <a>Getting Started</a>
+          </Link>
+          <Link href='/docs/query-builder'>
+            <a>Query Builder</a>
+          </Link>
+          <Link href='/docs/model'>
+            <a>Models</a>
           </Link>
         </div>
         <div className={styles.directoryContainer}>
