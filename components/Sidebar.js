@@ -44,7 +44,7 @@ const Sidebar = () => {
             </Link>
           </Accordion>
           <Accordion title='Models'>
-            <Link href='/docs/model/#models'>
+            <Link href='/docs/model/#model'>
               <div className={styles.accordionText}>Table Models</div>
             </Link>
           </Accordion>

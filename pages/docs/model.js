@@ -8,7 +8,7 @@ const model = () => {
   const codeHighlight3 = `\n$deno run --allow-read --allow-write --allow-net --unstable deno.land/x/dorm/models/model-generator.ts\n`;
   return (
     <div>
-      <h1 id={model}>MODEL INSTANCES</h1>
+      <h1 id={'model'}>MODEL INSTANCES</h1>
       <p>
         <strong>dORM</strong> can create model instances from your database. Run
         this in your command line terminal:
