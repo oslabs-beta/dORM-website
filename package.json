@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/oslabs-beta/dORM-website#readme",
   "dependencies": {
-    "next": "^10.1.3"
+    "next": "^10.1.3",
+    "react-syntax-highlighter": "^15.4.3"
   },
   "devDependencies": {
     "react": "^17.0.2",
